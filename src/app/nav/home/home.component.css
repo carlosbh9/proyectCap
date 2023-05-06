@@ -1,0 +1,16 @@
+nav{
+  padding: 20px;
+  margin: 20px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: #b55555;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav ul li:hover > ul {
+  display: flex;
+  flex-direction: column;
+}
